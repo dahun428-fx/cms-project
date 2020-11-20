@@ -37,11 +37,11 @@
 		 	email,
 		 	address,
 		 	join_date 			as "joinDate",
-		 	withdraw_date 			as "withDrawDate",
+		 	withdraw_date 		as "withDrawDate",
 		 	emp_status 			as "status",
 		 	dept_code 			as "departmentCode"
 		 FROM
-		 	EMPLOYEE
+		 	employee
 		 WHERE
 		 	emp_id = #{value}
 	
